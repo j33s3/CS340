@@ -2,13 +2,13 @@
 ## Client Server Final Project
 
 ### How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
-1. Modular design
+## 1. Modular design
 Making sure to break down the application into smaller working pieces. This makes the code easier to follow and understand.
-2. Clear and Concise Naming Conventions
+## 2. Clear and Concise Naming Conventions
 Using descriptive naming conventions allows for insight into the usage of a variable, class or function.
-3. Documentation and comments
+## 3. Documentation and comments
 Providing clear documentation and comments to the code is detrimental for transparency. For people who are reviewing your code or even yourself later on, it allows people to familiarize themselves with the functionality in a timely manner
-4. Testing and Debugging
+## 4. Testing and Debugging
 
 ### How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
 This project was different from all of my previous course work, since I was building an application front and back. We worked on the Mongo database first and then started implementing a user interface. In this course, the approach started at the lowest level. First, we ensured the database was operational and that the queries were operational using MongoSH. Then we developed python code using the dash framework. The Python code first displayed an interactive table with the data from our Mongo database. Gradually, we added a map for displaying coordinates and a chart for visualizing the data. When developing an app front and back such as this project. I will work from the back to ensure that the data is functional. Then I will work through how the data will be utilized on the front end.
